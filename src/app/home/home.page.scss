@@ -1,4 +1,30 @@
-#container {
+ion-toolbar{
+  --background: #1e8be2;
+  color: white
+}
+ion-content{
+  --background: #DCDBDC;
+  ion-card{
+    border-radius: 10px;
+  }
+  ion-grid {
+    --ion-grid-padding-sm: 20px;
+    --ion-grid-padding-md: 30px;
+    --ion-grid-padding-lg: 40px;
+    --ion-grid-padding-xl: 80px;
+  }
+  .search-div{
+    background: #a9a7a9;
+    padding: 25px;
+    ion-searchbar{
+      --border-radius:10px;
+    }
+  }
+
+
+}
+
+/* #container {
   text-align: center;
 
   position: absolute;
@@ -24,4 +50,4 @@
 
 #container a {
   text-decoration: none;
-}
+} */
